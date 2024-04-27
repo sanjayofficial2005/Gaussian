@@ -17,12 +17,12 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 7.Display Result
 
 ## Program:
-```
-/*
+```python
+
 Program to find the solution of a matrix using Gaussian Elimination.
 Developed by: Balaji J
 RegisterNumber: 212221243001
-*/
+
 import numpy as np
 n = int(input())
 a = np.zeros((n,n+1))
@@ -46,8 +46,9 @@ for i in range(n):
     print("X%d = %0.2f"%(i,x[i]),end = " ")
 ```
 ## Output:
-![m1](https://github.com/Balaji-Jothiramalingam/Gaussian/assets/114234865/59b7134d-9015-48f6-9ff2-2d6bf7c6a598)
 
+![Screenshot 2024-04-27 091429](https://github.com/Balaji-Jothiramalingam/Gaussian/assets/148048602/801a80ef-03b2-4c5e-b0a1-d72b435c4195)
+![Screenshot 2024-04-27 090730](https://github.com/Balaji-Jothiramalingam/Gaussian/assets/148048602/95546f56-7a6a-43fa-a8f0-2f9cb0026f87)
 
 
 ## Result:
